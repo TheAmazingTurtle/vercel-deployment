@@ -1,16 +1,60 @@
 body {
+  margin: 0;
   font-family: Arial, sans-serif;
-  text-align: center;
-  margin-top: 50px;
-  background-color: #f4f4f4;
-}
-
-h1 {
+  background-color: #f9f9f9;
   color: #333;
 }
 
-button {
-  padding: 10px 20px;
-  font-size: 16px;
-  cursor: pointer;
+nav {
+  background-color: #333;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 1em 2em;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1em;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  text-align: center;
+  padding: 4em 1em;
+  background-color: #e0f7fa;
+}
+
+.hero h2 {
+  margin-bottom: 0.5em;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  padding: 2em;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: white;
+  padding: 1.5em;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  width: 250px;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  padding: 1em;
+  background-color: #333;
+  color: white;
 }

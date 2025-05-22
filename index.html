@@ -7,8 +7,41 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>Hello, Vercel!</h1>
-  <button onclick="sayHello()">Click Me</button>
+  <header>
+    <nav>
+      <h1>MySite</h1>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Welcome to My Vercel App</h2>
+    <p>This is a simple static website deployed using Vercel.</p>
+    <button onclick="sayHello()">Say Hello</button>
+  </section>
+
+  <section class="cards">
+    <div class="card">
+      <h3>Card One</h3>
+      <p>This is some text inside the first card.</p>
+    </div>
+    <div class="card">
+      <h3>Card Two</h3>
+      <p>This is some text inside the second card.</p>
+    </div>
+    <div class="card">
+      <h3>Card Three</h3>
+      <p>This is some text inside the third card.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 MySite. All rights reserved.</p>
+  </footer>
 
   <script src="script.js"></script>
 </body>

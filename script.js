@@ -1,3 +1,3 @@
 function sayHello() {
-  alert("Hello from Vercel!");
+  alert("Hello from your Vercel-deployed site!");
 }
